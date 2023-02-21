@@ -3,9 +3,9 @@ import {
   createRobotActionCreator,
   deleteRobotActionCreator,
   loadRobotsActionCreator,
-} from "../store/features/robotSlice/robotsSlice";
-import { useAppDispatch } from "../store/hooks";
-import { RobotStructure } from "../types/types";
+} from "../../store/features/robotSlice/robotsSlice";
+import { useAppDispatch } from "../../store/hooks";
+import { RobotStructure } from "../../types/types";
 
 const deleteRobot = "/delete/";
 
