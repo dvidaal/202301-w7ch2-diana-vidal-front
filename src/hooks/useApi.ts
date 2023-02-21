@@ -3,7 +3,7 @@ import {
   createRobotActionCreator,
   deleteRobotActionCreator,
   loadRobotsActionCreator,
-} from "../store/features/robotsSlice";
+} from "../store/features/robotSlice/robotsSlice";
 import { useAppDispatch } from "../store/hooks";
 import { RobotStructure } from "../types/types";
 
